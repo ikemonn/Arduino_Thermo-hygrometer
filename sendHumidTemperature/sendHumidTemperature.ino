@@ -6,7 +6,7 @@
 #define DHTTYPE DHT22
 #define DHT22_PIN 7
 DHT dht(DHT22_PIN, DHTTYPE);
-
+// Ethernetシールドのmacアドレス
 byte mac[] = { 0x90,0xA2,0xDA,0x10,0x67,0xBA };
 // MacのローカルIP
 char server[] = "192.168.1.9";    
