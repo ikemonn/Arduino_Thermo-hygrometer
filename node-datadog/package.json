@@ -1,0 +1,15 @@
+{
+   "name": "datadog",
+   "version": "0.0.1",
+   "author": "Singly <nerds@singly.com>",
+   "main": "index",
+   "dependencies": {
+      "request" : "*",
+      "should"  : "0.6.3"
+   },
+   "devDependencies": {
+       "should": "*",
+       "mocha": "*"
+     },
+   "license": "MIT"
+}

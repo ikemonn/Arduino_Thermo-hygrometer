@@ -1,0 +1,3 @@
+[submodule "node-datadog"]
+	path = node-datadog
+	url = https://github.com/HashGo/node-datadog.git
