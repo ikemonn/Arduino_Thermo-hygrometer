@@ -8,6 +8,9 @@ var dd = new DataDog(api_key, app_key);
 
 app.get('/', function (req, res) {
     console.log(req.query);
+    var temp = req.query['t'];
+    var humid = req.query['h'];
+
     dd.postSeries({
         "series": [
             {
