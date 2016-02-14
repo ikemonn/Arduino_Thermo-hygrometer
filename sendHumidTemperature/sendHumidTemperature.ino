@@ -15,7 +15,7 @@ IPAddress ip(192, 168, 1, 2);
 EthernetClient client;
 
 unsigned long lastConnectionTime = 0;             
-const unsigned long postingInterval = 3L * 1000L; 
+const unsigned long postingInterval = 30L * 1000L; 
 
 
 void setup() {
